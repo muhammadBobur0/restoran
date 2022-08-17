@@ -59,8 +59,27 @@
   color: #ABBBC2;
 }
 
+.Continue {
+  margin-top: 42px;
+}
+
+.Continue-btn{
+  padding: 14px 0px;
+  width: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #EA7C69;
+  box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.3);
+  border-radius: 8px;
+  
+}
+
 .payment-text {
   margin-left: auto;
+}
+
+.orders-box {
+  height: 45vh;
 }
 
 .payment-dis {

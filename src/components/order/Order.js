@@ -67,6 +67,9 @@ export const Order = () => {
 						<h3 className='payment-dis-text'>Sub total</h3>
 						<p className='payment-text'>${prisetotal}</p>
 					</div>
+					<div className='Continue'>
+						<button className='Continue-btn'>Continue to Payment</button>
+					</div>
 				</div>
 			</div>
 		</div>
