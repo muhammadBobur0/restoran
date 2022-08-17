@@ -1,0 +1,98 @@
+.Iteam-order{
+  display: flex;
+}
+
+.order-img {
+  border-radius: 50%;
+  margin-right: 6px;
+  width: 46px;
+  height: 42px;
+}
+
+.order-itam-text {
+  margin: 0;
+  margin-bottom: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+
+.iteam-boxs{
+  margin-top: 27px;
+}
+
+.order-itam-price {
+  margin: 0;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+  color: #ABBBC2;
+}
+
+
+.order-boxs-form{
+  display: flex;
+}
+
+
+.delete {
+  width: 56px;
+  height: 48px;
+  padding: 14px;
+  background-image: url(../../assets//images/Trash.svg);
+  background-repeat: no-repeat;
+  background-size: 16px 18px;
+  background-position: center;
+  border: 1px solid #EA7C69;
+  border-radius: 8px;
+}
+
+.orders-box{
+  overflow-y: scroll;
+  height: 50vh;
+  border-bottom: 1px solid #393C49;
+}
+
+.orders-box::-webkit-scrollbar{
+  width: 0px;
+}
+
+.count-box {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+
+.oreder-input {
+  width: 100%;
+  height: 48px;
+  padding: 14px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  background: #2D303E;
+  border: 1px solid #393C49;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+
+
+.caount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  margin-left: auto;
+  height: 48px;
+  margin-right: 43px;
+  text-align: center;
+  background: #2D303E;
+  border: 1px solid #393C49;
+  border-radius: 8px;
+}
+
+.Iteam-order {
+  margin-bottom: 24px;
+}
