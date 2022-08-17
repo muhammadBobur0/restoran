@@ -1,0 +1,137 @@
+.center-container {
+  width: 70%;
+  padding: 24px 24px 0;
+  box-sizing: border-box;
+}
+
+.header-text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #E0E6E9;
+}
+
+.search {
+  margin-left: auto;
+}
+
+.input-search {
+  display: block;
+  border: 1px solid #393C49;
+  border-radius: 8px;
+  padding: 8px 12px ;
+  padding-left: 42px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;  
+  color: #ABBBC2;
+  background-image: url(../../assets/images/search.svg);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-color: #2D303E;
+  background-position: calc(50% - 90px), center;
+  width: 220px;
+}
+
+
+.header-tile {
+  margin: 0;
+  margin-bottom: 4px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 140%;
+}
+
+
+.choose {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+}
+
+
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height:520px;
+  overflow-y: hidden;
+  overflow-y: scroll;
+  padding-top: 58px;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+}
+
+.list::-webkit-scrollbar {
+  width: 3px;
+}
+
+
+.list::-webkit-scrollbar-thumb {
+  background-color: #ea7c69;
+  box-shadow: inset 0 0 6px rgb(234 124 105 / 50%);
+}
+
+
+.list::-webkit-scrollbar-track {
+  background-color: #1f1d2b;
+}
+
+.header {
+  width: 100%;
+  /* padding-top: 24px; */
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.typesfood {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #393C49;
+}
+
+.dishes {
+  text-decoration: none;
+  margin-right: 32px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #fff;
+  padding-bottom: 13px;
+}
+
+.select {
+  width: 100px;
+  margin-left: auto;
+  padding: 15px;
+  padding-left: 30px;
+  background: #1F1D2B;
+  border: 1px solid #393C49;
+  border-radius: 8px;
+  color: #fff;
+  appearance: none;
+  background-image: url(../../assets/images/arrow-ios-down.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: calc(50% - 30px) center;
+}
+
+.choose{
+  display: flex;
+  align-items: center;
+}
+
+
+.typesfood .active{
+  display: block;
+  color:  #EA7C69;
+  border-radius: 0px;
+  border-bottom: 3px solid #EA7C69;
+}

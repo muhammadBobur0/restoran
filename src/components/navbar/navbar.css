@@ -1,0 +1,108 @@
+.sidebar{
+  background: #1f1d2b;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 0 12px;
+
+}
+
+.Logo-header {
+  padding: 26px 24px 24px 12px;
+}
+
+.logo {
+  width: 56px;
+  height: 56px;
+}
+
+
+.setting {
+  margin-bottom: 69px;
+}
+
+.svg{
+  fill: #EA7C69
+}
+
+.header-link {
+  display: block;
+  padding: 13px 25px 11px 13px;
+}
+
+.header-span {
+  display: block;
+  width: 56px;
+  height: 56px;
+  position: relative
+
+}
+
+
+
+
+ .header-link.active > .header-span::before {
+  content: "";
+  display: block;
+  width: 12.02px;
+  height: 12px;
+  position: absolute;
+  right: 0;
+}
+
+.header-link.active > .header-span::after{
+  content: "";
+  display: block;
+  width: 12.02px;
+  height: 12px;
+  position: absolute;
+  right: 0;
+}
+
+
+.header-link.active > .header-span::after {
+  background-image: url(../../assets/images/after.svg);
+  bottom: -21px;
+  right: -25px;
+}
+
+
+.header-link.active > .header-span::before {
+  background-image: url(../../assets//images/before.svg);
+  top: -24px;
+  right: -25px;
+}
+
+
+
+.header-link  svg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.active {
+  background: #252836;
+  border-radius: 12px 0 0 12px;
+}
+
+.header-link.active .header-span {
+  background: #ea7c69;
+  box-shadow: 0 8px 24px rgb(234 124 105 / 32%);
+  border-radius: 8px;
+  width: 56px;
+  height: 56px;
+  display: block;
+}
+
+.header-link.active .svg {
+  fill: #fff;
+}
+
+
+
+
