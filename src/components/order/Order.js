@@ -10,8 +10,9 @@ export const Order = () => {
 
 	useEffect(() => {
 		const total = () => {
+			console.log(order);
 			order?.forEach((element) => {
-				return setprisetotal(prisetotal + +element.data.price);
+				return setprisetotal(+element.data.price * element.count + prisetotal);
 			});
 		};
 		total();

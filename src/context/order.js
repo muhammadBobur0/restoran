@@ -5,6 +5,7 @@ export const Authorder = createContext();
 
 export const OrderProvider = ({ children }) => {
 	const [order, setorder] = useState([]);
+	console.log(order);
 
 	return (
 		<Authorder.Provider value={{ order, setorder }}>

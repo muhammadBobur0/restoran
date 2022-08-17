@@ -14,7 +14,7 @@ export const Iteam = (props) => {
 
 		if (finded >= 0) {
 			click[finded].count += 1;
-			click[finded].price = click[finded].price * 2;
+			click[finded].data.price = +click[finded].data.price * 2;
 		} else {
 			setClick([...click, { data, count: 1 }]);
 		}
