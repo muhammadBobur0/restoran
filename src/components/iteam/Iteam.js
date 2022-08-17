@@ -19,16 +19,11 @@ export const Iteam = (props) => {
 			setClick([...click, { data, count: 1 }]);
 		}
 
-		setorder([...order, { data, count: 1 }]);
+		setorder([...order, ...click]);
 	};
 
 	return (
-		<div
-			onClick={() =>
-				//  setorder([...order, { data, count: 1 }])
-				handeIteam()
-			}
-			className='card'>
+		<div onClick={() => handeIteam()} className='card'>
 			<img
 				className='food-images'
 				src={'https://food-service-layer-app.herokuapp.com/' + image}
