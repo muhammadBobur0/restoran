@@ -1,0 +1,161 @@
+.flex-boxs{
+  display: flex;
+  align-items: center;
+}
+
+.product-buton {
+  padding: 14px 16px;
+  padding-left: 44px;
+  color: #fff;
+  border: 1px solid #393C49;
+  border-radius: 8px;
+  margin-left: auto;
+  background-image: url(../../assets/images/mange.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: calc(50% - 67px) center ;
+}
+
+
+.product .list {
+  height: 380px;
+  padding-top: 24px;
+  align-items: flex-start;
+}
+
+.images {
+  width: 144px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+
+.btn-box {
+  padding: 24px 0px;
+}
+
+.Hot{
+  text-decoration: none;
+  color: #fff;
+  margin-right: 32px;
+}
+
+
+.Discard{
+  padding: 14px 43px;
+  color: #fff;
+  border: 1px solid #EA7C69;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+.push{
+  border: 1px dashed #EA7C69;
+  border-radius: 8px;
+  width: 221px;
+  height: 299px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.push p {
+  margin: 0;
+  text-align: center;
+  color: #EA7C69;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  
+}
+
+.Save{
+  padding: 14px 43px;
+  color: #fff;
+  background: #EA7C69;
+  box-shadow: 0px 8px 24px #ea7c6966;
+  border-radius: 8px;
+}
+
+.typesfood {
+  padding-bottom: 13px;
+  border-bottom: 1px solid #393C49;
+}
+
+.border h3, p {
+  margin: 0;
+}
+
+.border {
+  padding: 20px;
+  height: 100%;
+  width: 250px;
+}
+
+.close {
+  display: block;
+  margin-left: auto;
+  border: none;
+  background-color: #fff;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+
+.submit{
+  padding: 20px 30px;
+  background-color: peru;
+  color: #fff;
+  border-radius: 20px;
+
+}
+
+.modal {
+  position: fixed;
+  background-color: #393C49;
+  width: 50%;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 20px;
+}
+
+form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.file {
+  text-align: center;
+  margin-bottom: 30px;
+  width: 80%;
+  padding: 20px 0px;
+  margin-bottom: 60px;
+  border-radius: 20px;
+  background-color: darkgray;
+  color: #fff;
+}
+
+
+.hidden {
+  width: 0px;
+}
+
+form > input {
+  width: 80%;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  background-color: darkgray;
+  color: #fff;
+}
+
+.modal-text{
+  text-align: center;
+}

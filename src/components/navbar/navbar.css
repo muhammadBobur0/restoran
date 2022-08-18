@@ -29,6 +29,7 @@
 .header-link {
   display: block;
   padding: 13px 25px 11px 13px;
+  width: 100%;
 }
 
 .header-span {
@@ -74,7 +75,10 @@
   right: -25px;
 }
 
-
+.sidebar .setting  {
+  padding: 0;
+  padding: 13px 25px 11px 13px;
+}
 
 .header-link  svg{
   position: absolute;
@@ -84,6 +88,7 @@
   bottom: 0;
   margin: auto;
 }
+
 
 .active {
   background: #252836;

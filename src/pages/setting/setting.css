@@ -1,0 +1,27 @@
+.setting{
+  padding: 24px;
+  width: 100%;
+}
+
+.setting-tittle {
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 140%;
+}
+
+.setings-box {
+  display: flex;
+}
+
+.items {
+  width: 100%;
+  padding: 24px;
+  margin-left: 28px;
+  background-color: #1F1D2B;
+  border-radius: 8px;}
+
+.setting-svg {
+  fill:#ABBBC2;
+}

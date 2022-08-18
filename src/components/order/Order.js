@@ -8,13 +8,15 @@ export const Order = () => {
 	const [prisetotal, setprisetotal] = useState(0);
 	const { order } = useOrder();
 
+	const total = () => {
+		let total = 0;
+		order?.forEach((element) => {
+			total += Number(element.data.price) * Number(element.count);
+		});
+		setprisetotal(total);
+	};
+
 	useEffect(() => {
-		const total = () => {
-			console.log(order);
-			order?.forEach((element) => {
-				return setprisetotal(+element.data.price * element.count + prisetotal);
-			});
-		};
 		total();
 	}, [order]);
 

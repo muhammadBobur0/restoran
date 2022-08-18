@@ -17,6 +17,48 @@
 }
 
 
+.edit {
+  background: #EA7C69;
+  margin-bottom: 10px;
+  height: 40px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+.delete{
+  border-radius: 0px 0px 8px 8px;
+  height: 40px;
+  width: 100% !important;
+  color: #fff;
+  background: #ff2600;
+  background-position: calc(50% - 30px) center !important;
+}
+
+.border{
+  background: #1F1D2B;
+  border: 1px dashed #393C49;
+  border-radius: 8px;
+  height: 299px;
+  margin-top: 30px;
+}
+
+.border .width {
+  width: 100%;
+  padding: 20px 0px;
+}
+
+
+.edit-svg{
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  fill: #fff;
+}
+
+
+
+
 @-webkit-keyframes rotate {  
   0% { -webkit-transform: rotate(0deg) rotateY(0) scale(1) }
   

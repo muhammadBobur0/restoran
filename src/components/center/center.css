@@ -53,11 +53,11 @@
 
 
 .list {
+  height:520px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  height:520px;
   overflow-y: hidden;
   overflow-y: scroll;
   padding-top: 58px;
@@ -85,7 +85,6 @@ button{
 
 .header {
   width: 100%;
-  /* padding-top: 24px; */
   display: flex;
   align-items: center;
   margin-bottom: 24px;

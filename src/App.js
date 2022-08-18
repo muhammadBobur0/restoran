@@ -1,9 +1,9 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import { Center } from './components/center/Center';
 import { Navbar } from './components/navbar/Navbar';
-import { Order as OrderComponents } from './components/order/Order';
 import { OrderProvider } from './context/order';
+import Content from './pages/indexpage';
+import { Setting } from './pages/setting/Setting';
 
 function App() {
 	return (
@@ -11,9 +11,9 @@ function App() {
 			<Navbar />
 			<OrderProvider>
 				<Routes>
-					<Route path='/*' element={<Center />} />
+					<Route path='/*' element={<Content />} />
+					<Route path='/Seting/*' element={<Setting />} />
 				</Routes>
-				<OrderComponents />
 			</OrderProvider>
 		</div>
 	);
