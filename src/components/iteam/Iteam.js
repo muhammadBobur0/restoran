@@ -1,5 +1,6 @@
 import './iteam.css';
 import { useOrder } from '../../hook/useOrder';
+import ONe from '../../assets/images/Appetizer4.jpg';
 
 export const Iteam = (props) => {
 	const { id, bowls, image, name, price } = props.data;
@@ -22,6 +23,11 @@ export const Iteam = (props) => {
 			<img
 				className='food-images'
 				src={'https://food-service-layer-app.herokuapp.com/' + image}
+				onError={(e) => {
+					if (e.nativeEvent.type !== true) {
+						e.target.src = ONe;
+					}
+				}}
 				alt={name}
 			/>
 			<h3>{name}</h3>

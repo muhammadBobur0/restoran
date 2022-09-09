@@ -1,6 +1,7 @@
 import { ReactComponent as Edit } from '../../assets/images/edit.svg';
 import axios from 'axios';
 import { useRef, useState } from 'react';
+import ONe from '../../assets/images/Appetizer4.jpg';
 
 export const SettingIteam = (props) => {
 	const { id, bowls, image, name, price } = props.data;
@@ -49,6 +50,11 @@ export const SettingIteam = (props) => {
 				width='144'
 				height='130'
 				src={'https://food-service-layer-app.herokuapp.com/' + image}
+				onError={(e) => {
+					if (e.nativeEvent.type !== true) {
+						e.target.src = ONe;
+					}
+				}}
 				alt={name}
 			/>
 			<h3>{name}</h3>
